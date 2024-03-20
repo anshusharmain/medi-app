@@ -31,7 +31,6 @@ body {
     li {
       float: left;
     }
-
     li a {
       display: block;
       color: white;
@@ -42,6 +41,14 @@ body {
 
     li a:hover:not(.active) {
       background-color: #111;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    canvas {
+      display: block;
     }
 .details {
   display: flex;
