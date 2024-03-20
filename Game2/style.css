@@ -74,6 +74,28 @@ body {
   transform-origin: bottom center;
 }
 
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    canvas {
+      display: block;
+    }
+
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
